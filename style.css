@@ -26,3 +26,7 @@ h{
     margin-top: var(--body_font_size);
     text-align: justify;
 }
+p:after {
+  content: "";
+  width: 100%;
+}
