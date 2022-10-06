@@ -28,7 +28,7 @@ h{
 }
 .poem {
   text-align: justify;
-  line.height: calc(var(--body_font_size) / 2)
+  line-height: calc(var(--body_font_size) / 2)
 }
 .poem p:after {
   content: "";
