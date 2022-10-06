@@ -21,17 +21,17 @@ body{
     margin-top: var(--body_font_size);
     line-height: normal;
 }
-.content h{
+h{
     font-size: var(--header_font_size);
 }
-.content .timestamp{
+.timestamp{
     font-size: var(--timestamp_font_size);
 }
-.content .poem {
+.poem {
     text-align: justify;
     line-height: calc(var(--body_font_size) / 2)
 }
-.content .poem p:after {
+.poem p:after {
     content: "";
     display: inline-block;
     width: 100%;
