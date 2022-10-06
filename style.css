@@ -10,6 +10,9 @@ body{
     background: #f7f7f7;
     color: #333;
 }
+.wrapper{
+    margin-top: 5px;
+}
 .content{
     margin: 5px;
 }
