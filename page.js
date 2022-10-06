@@ -2,16 +2,16 @@ var pages = 9;
 var current_page = 0
 
 function setup() {
-  document.getElementById(pages - (current_page + 1)).style.visibility = 'visible';
+  document.getElementById(pages - (current_page + 1)).style.display = 'box';
 }
 
 function turn_page() {
-  document.getElementById(pages - (current_page + 1)).style.visibility = 'hidden';
+  document.getElementById(pages - (current_page + 1)).style.display = 'none';
   if(current_page >= pages) {
     current_page = 0;
   }
   else {
     current_page += 1;
   }
-  document.getElementById(pages - (current_page + 1)).style.visibility = 'visible';
+  document.getElementById(pages - (current_page + 1)).style.display = 'box';
 }
