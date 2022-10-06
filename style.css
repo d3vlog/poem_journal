@@ -24,7 +24,7 @@ h{
 }
 .content{
     margin-top: var(--body_font_size);
-    line-height: 50%;
+    line-height: 25%;
 }
 .fulljustify {
   text-align: justify;
