@@ -12,5 +12,6 @@ body{
     overflow: hidden;
 }
 .wrapper{
+    border-radius: 16px;
     border-style: solid;
 }
