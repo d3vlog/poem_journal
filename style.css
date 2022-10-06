@@ -17,7 +17,6 @@ body{
     color: #333;
 }
 .content{
-    display: none;
     margin-top: var(--body_font_size);
     line-height: normal;
 }
