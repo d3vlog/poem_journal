@@ -31,7 +31,7 @@ h{
 }
 .poem {
     text-align: justify;
-    text-justify: inter-character;
+    text-justify: auto;
     line-height: calc(var(--body_font_size) / 2)
 }
 .poem p:after {
