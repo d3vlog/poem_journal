@@ -24,6 +24,4 @@ h{
 }
 .content{
     margin-top: var(--body_font_size);
-    text-align: justify;
-    white-space: nowrap;
 }
