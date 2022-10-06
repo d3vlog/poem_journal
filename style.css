@@ -11,3 +11,6 @@ body{
     color: #333;
     overflow: hidden;
 }
+.wrapper{
+    border-style: solid;
+}
