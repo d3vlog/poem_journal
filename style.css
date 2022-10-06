@@ -39,3 +39,6 @@ h{
     display: inline-block;
     width: 100%;
 }
+.poem .last_paragraph{
+     text-align: left;
+}
