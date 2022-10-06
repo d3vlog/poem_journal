@@ -1,6 +1,7 @@
 :root{
     --body_font_size: 16px;
     --header_font_size: 20px;
+    --timestamp_font_size: 8px;
 }
 *{
     font-family: monospace;
