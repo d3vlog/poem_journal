@@ -19,6 +19,8 @@ body{
 }
 .content{
     display: none;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     margin-top: var(--body_font_size);
     line-height: normal;
