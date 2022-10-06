@@ -24,5 +24,12 @@ h{
 }
 .content{
     margin-top: var(--body_font_size);
-    display: inline-block;
+}
+.fulljustify {
+  text-align: justify;
+}
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
