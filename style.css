@@ -24,4 +24,5 @@ h{
 }
 .content{
     margin-top: var(--body_font_size);
+    display: inline-block;
 }
