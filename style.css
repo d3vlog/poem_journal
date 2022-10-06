@@ -27,6 +27,7 @@ h{
 }
 .fulljustify {
   text-align: justify;
+  line-height: calc(var(--body_font_size) / 2);
 }
 .fulljustify:after {
   content: "";
