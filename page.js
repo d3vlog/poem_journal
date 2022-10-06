@@ -7,7 +7,7 @@ function setup() {
 
 function turn_page() {
   document.getElementById(pages - (current_page + 1)).style.display = 'none';
-  if(current_page >= pages) {
+  if(current_page >= pages - 1) {
     current_page = 0;
   }
   else {
