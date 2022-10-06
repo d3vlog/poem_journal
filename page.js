@@ -2,7 +2,7 @@ var pages = 9;
 var current_page = 0
 
 function setup() {
-  document.getElementById(pages - (current_page + 1)).style.display = 'block';
+  document.getElementById(pages - (current_page + 1)).style.display = 'inherit';
 }
 
 function turn_page() {
@@ -13,5 +13,5 @@ function turn_page() {
   else {
     current_page += 1;
   }
-  document.getElementById(pages - (current_page + 1)).style.display = 'block';
+  document.getElementById(pages - (current_page + 1)).style.display = 'inherit';
 }
