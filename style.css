@@ -1,9 +1,9 @@
 :root{
-    --font_s: 16px;
+    --body_font_size: 16px;
 }
 *{
     font-family: monospace;
-    font-size: var(--font_s);
+    font-size: var(--body_font_size);
 }
 body{
     display: flex;
@@ -15,5 +15,5 @@ body{
     color: #333;
 }
 .content{
-    margin-top: var(--font_s);
+    margin-top: var(--body_font_size);
 }
