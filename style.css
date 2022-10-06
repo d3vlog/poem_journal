@@ -17,9 +17,9 @@ body{
     color: #333;
 }
 .content{
+    visibility: hidden;
     margin-top: var(--body_font_size);
     line-height: normal;
-    visibility: hidden;
 }
 h{
     font-size: var(--header_font_size);
