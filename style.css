@@ -27,7 +27,7 @@ h{
 }
 .fulljustify {
   text-align: justify;
-  height: 50%;
+  height: 200%;
 }
 .fulljustify:after {
   content: "";
