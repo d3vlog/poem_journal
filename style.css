@@ -5,6 +5,7 @@
 }
 *{
     font-family: monospace;
+    user-select: none;
     font-size: var(--body_font_size);
 }
 body{
