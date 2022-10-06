@@ -1,7 +1,9 @@
 var pages = 9;
 var current_page = 0
 
-document.getElementById(pages - (current_page + 1)).style.visibility = 'visible';
+function setup() {
+  document.getElementById(pages - (current_page + 1)).style.visibility = 'visible';
+}
 
 function turn_page() {
   document.getElementById(pages - (current_page + 1)).style.visibility = 'hidden';
