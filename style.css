@@ -18,7 +18,7 @@ body{
 }
 .content{
     margin-top: var(--body_font_size);
-    line-height: var(--body_font_size);
+    line-height: normal;
 }
 h{
     font-size: var(--header_font_size);
@@ -28,6 +28,7 @@ h{
 }
 .poem {
   text-align: justify;
+  line.height: calc(var(--body_font_size) / 2)
 }
 .poem p:after {
   content: "";
