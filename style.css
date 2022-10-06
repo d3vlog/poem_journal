@@ -24,10 +24,10 @@ h{
 }
 .content{
     margin-top: var(--body_font_size);
+    height: 50vh;
 }
 .fulljustify {
   text-align: justify;
-  height: 50vh;
 }
 .fulljustify:after {
   content: "";
