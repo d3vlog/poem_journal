@@ -26,10 +26,10 @@ h{
     margin-top: var(--body_font_size);
     line-height: var(--body_font_size);
 }
-.fulljustify {
+.poem {
   text-align: justify;
 }
-.fulljustify:after {
+.poem p:after {
   content: "";
   display: inline-block;
   width: 100%;
