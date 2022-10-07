@@ -17,14 +17,10 @@ body{
     background: #f7f7f7;
     color: #333;
 }
-.wrapper{
-    white-space: nowrap;
-}
 .content{
     display: none;
     cursor: pointer;
     margin-top: var(--body_font_size);
-    white-space: normal;
 }
 h{
     font-size: var(--header_font_size);
