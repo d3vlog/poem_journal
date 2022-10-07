@@ -22,7 +22,7 @@ body{
     display: none;
     cursor: pointer;
     margin-top: var(--body_font_size);
-    line-height: normal;
+    white-space: nowrap;
 }
 h{
     font-size: var(--header_font_size);
