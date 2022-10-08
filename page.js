@@ -2,8 +2,8 @@ var pages = 0
 var current_page = 0
 
 function setup() {
-  document.getElementById(pages - (current_page + 1)).style.display = 'inherit';
   pages = document.getElementsByClass("poem").length;
+  document.getElementById(pages - (current_page + 1)).style.display = 'inherit';
 }
 
 function turn_page() {
