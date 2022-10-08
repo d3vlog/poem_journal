@@ -1,4 +1,4 @@
-var pages = 9;
+var pages = 10;
 var current_page = 0
 
 function setup() {
