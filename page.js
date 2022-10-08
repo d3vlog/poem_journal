@@ -2,7 +2,7 @@ var pages = 0
 var current_page = 0
 
 function setup() {
-  pages = document.getElementsByClass("poem").length;
+  pages = document.getElementsByClassName("poem").length;
   document.getElementById(pages - (current_page + 1)).style.display = 'inherit';
 }
 
