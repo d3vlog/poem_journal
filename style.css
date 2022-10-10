@@ -34,6 +34,7 @@ h{
 }
 .tw{
     font-size: var(--timestamp_font_size);
+    color: #cc33;
 }
 .poem {
     text-align: justify;
