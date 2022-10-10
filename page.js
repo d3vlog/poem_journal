@@ -16,3 +16,14 @@ function turn_page() {
   }
   document.getElementById(pages - (current_page + 1)).style.display = 'inherit';
 }
+
+function turn_page() {
+  document.getElementById(pages - (current_page + 1)).style.display = 'none';
+  if(current_page <= 0) {
+    current_page = pages - 1;
+  }
+  else {
+    current_page -= 1;
+  }
+  document.getElementById(pages - (current_page + 1)).style.display = 'inherit';
+}
