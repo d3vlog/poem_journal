@@ -24,7 +24,6 @@ body{
 }
 .content{
     display: none;
-    cursor: pointer;
     margin-top: var(--body_font_size);
 }
 h{
