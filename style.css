@@ -18,6 +18,9 @@ body{
     background: #f7f7f7;
     color: #333;
 }
+.arrow{
+    font-size: var(--header_font_size);
+}
 .content{
     display: none;
     cursor: pointer;
