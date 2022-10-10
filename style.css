@@ -20,6 +20,7 @@ body{
 }
 .arrow{
     font-size: var(--header_font_size);
+    cursor: pointer;
 }
 .content{
     display: none;
