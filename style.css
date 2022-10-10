@@ -19,7 +19,7 @@ body{
     color: #333;
 }
 .arrow{
-    font-size: var(--header_font_size);
+    font-size: calc(var(--header_font_size) * 2);
     cursor: pointer;
 }
 .content{
