@@ -19,6 +19,7 @@ body{
     color: #333;
 }
 .arrow{
+    margin: 25;
     font-size: calc(var(--header_font_size) * 1.5);
     cursor: pointer;
 }
